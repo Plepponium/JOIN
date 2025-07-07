@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="../../styles/header.css">
+</head>
+
+<header>
+    <div class="header-left">
+        <img src="../../assets/img/logo_grey.png" alt="JOIN Logo">
+        <h1>Kanban Project Management Tool</h1>
+    </div>
+    <div class="header-right">
+        <a href="../help.html">
+            <img class="help" src="../../assets/icons/help.png" alt="Help Icon">
+        </a>
+        <span id="headerInitials" class="initials" onclick="toggleHeaderPopUp()">
+        </span>
+    </div>
+    <div id="headerPopup" class="header-popup hidden">
+        <a class="help-in-popup" href="../../help.html">Help</a>
+        <a href="../../legal_notice.html">Legal Notice</a>
+        <a href="../../privacy_policy.html">Privacy Policy</a>
+        <a onclick="logout()">Logout</a>
+    </div>
+    <div id="popup-message-box"></div>
+</header>
+</html>

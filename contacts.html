@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN - Contacts</title>
+    <link rel="icon" href="./assets/img/logo_white.png" sizes="48x48" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/contacts.css">
+    <link rel="stylesheet" href="./styles/contacts2.css">
+    <link rel="stylesheet" href="./styles/contactsResponsive.css">
+    <link rel="stylesheet" href="./styles/contactsResponsive2.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+</head>
+
+<body onload="init()">
+    <div w3-include-html="./assets/templates/header.html"></div>
+    <div w3-include-html="./assets/templates/sidebar.html"></div>
+    <div class="container">
+        <main class="main-contacts">
+            <section class="contacts-container">
+                <div class="contacts-list">
+                    <div class="contacts-area-button">
+                        <button class="add-contact">
+                            <h2>Add new contact</h2>
+                            <img class="contacts-logo" src="../../assets/icons/addcontact.png" alt="Logo Add Contact">
+                        </button>
+                    </div>
+                    <div class="contacts-area-list">
+                    </div>
+                </div>
+                <div class="contacts-details">
+                    <button class="contacts-back-button">
+                        <img class="contacts-back-button-img" src="../../assets/icons/arrow-left-line.png" alt="Arrow left">
+                    </button>
+                    <div class="contacts-details-header">
+                        <h1>Contacts</h1>
+                        <div class="vertical-line">
+                        </div>
+                        <h2>Better with a team</h2>
+                    </div>
+                    <div class="contacts-card">
+                    </div>
+                </div>
+            </section>
+            <section id="myModal-contact" class="modal-contact">
+                <div id="myModal-contact-content-add" class="modal-contact-content-add">
+                    <div class="add-contact-left">
+                        <img class="add-contact-logo" src="../../assets/img/logo_white.png" alt="Logo Add Task">
+                        <h1>Add Contact</h1>
+                        <h2>Tasks are better with a team!</h2>
+                        <div class="horizontal-line">
+                        </div>
+                    </div>
+                    <div class="add-contact-right">
+                        <div class="add-contact-card">
+                        </div>
+                    </div>
+                </div>
+                <div id="myModal-contact-content-edit" class="modal-contact-content-edit">
+                    <div class="add-contact-left">
+                        <img class="add-contact-logo" src="../../assets/img/logo_white.png" alt="Logo Add Task">
+                        <h1>Edit Contact</h1>
+                        <div class="horizontal-line">
+                        </div>
+                    </div>
+                    <div class="add-contact-right">
+                        <div class="edit-contact-card">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="error-message-box" class="error-message-box"></div>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/contacts.js"></script>
+    <script src="./scripts/contacts2.js"></script>
+    <script src="./scripts/contacts3.js"></script>
+    <script src="./scripts/contacts4.js"></script>
+    <script src="./scripts/contactsMobile.js"></script>
+    <script src="./scripts/contactsTemplates.js"></script>
+    <script src="./scripts/remoteStorage.js"></script>
+    <script src="./scripts/w3include.js"></script>
+</body>
+
+</html>
