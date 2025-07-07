@@ -1,0 +1,17 @@
+# Editor & IDE
+.vscode/
+.idea/
+
+# Build-Outputs
+dist/
+build/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lokale Tools
+up.bat
