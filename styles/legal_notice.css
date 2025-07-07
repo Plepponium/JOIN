@@ -11,7 +11,7 @@
 
 body {
   font-family: inter;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .legal-container {
@@ -21,6 +21,7 @@ body {
   padding-bottom: 30px;
   margin-left: 232px;
   background-color: #f4f5f4;
+  min-height: 100vh;
 }
 
 .legal-headline h1 {
@@ -76,9 +77,8 @@ li {
 
 @media (max-width: 700px) {
   .legal-container {
-    padding: 0 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 96px 15px;
     margin-left: 0;
-}
+    margin-bottom: 300px;
+  }
 }

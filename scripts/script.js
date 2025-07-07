@@ -1,4 +1,4 @@
-let BASE_URL="https://join-56225-default-rtdb.europe-west1.firebasedatabase.app/";
+let BASE_URL="https://remotestorage-2a5f0-default-rtdb.europe-west1.firebasedatabase.app/";
 let appInitialized = false;
 
 /**

@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://join-56225-default-rtdb.europe-west1.firebasedatabase.app/";
+  "https://remotestorage-2a5f0-default-rtdb.europe-west1.firebasedatabase.app/";
 
 /**
  * getContacts - This asynchronous function fetches contact data from a remote Firebase database.
