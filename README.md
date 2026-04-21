@@ -9,7 +9,8 @@
 
 <p align="center">
 <strong>A dynamic Kanban board for managing tasks efficiently</strong>
-
+</p>
+<p align="center">
 Built with structured vanilla JavaScript, focusing on clean state handling and responsive UI interactions.
 </p>
 
