@@ -25,13 +25,12 @@ Built with structured vanilla JavaScript, focusing on clean state handling and r
 <li>🗂️ Multiple task states (To Do, In Progress, Done)</li>
 <li>🧾 Create, edit, and delete tasks</li>
 <li>👥 Assign contacts to tasks</li>
-<li>🔍 Search and filter functionality</li>
 <li>⚡ Real-time UI updates without frameworks</li>
 </ul>
 
 <h2>🛠️ Tech Stack</h2>
 <ul>
-<li>⚡ JavaScript (ES6+)</li>
+<li>⚡ JavaScript</li>
 <li>🌐 HTML5</li>
 <li>🎨 CSS3</li>
 <li>🧠 Local state management</li>
@@ -64,18 +63,10 @@ without external frameworks, focusing on scalability, maintainability, and clean
 <em>(Add screenshots or a demo GIF here 👀)</em>
 </p>
 
-<h2>🔮 Future Improvements</h2>
-<ul>
-<li>☁️ Backend integration</li>
-<li>🔐 Authentication system</li>
-<li>📱 Mobile optimization</li>
-<li>📊 Analytics & productivity insights</li>
-</ul>
-
 <hr>
 
 <p align="center">
-Built with 💡 and pure JavaScript
+Built with 💡 and JavaScript
 </p>
 
 </body>
